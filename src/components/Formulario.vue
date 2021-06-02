@@ -2,7 +2,7 @@
 
   <span class="src-components-formulario">
     <div class="jumbotron">
-      <h2>Formulario</h2>
+      <h2>1. Formulario</h2>
       <hr>
       <vue-form :state="formState" @submit.prevent="enviar()">
         <validate tag="div">

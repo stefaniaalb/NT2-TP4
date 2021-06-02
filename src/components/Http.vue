@@ -2,15 +2,15 @@
 
   <section class="src-components-tabla-datos justify-context-center">
     <div class="jumbotron">
-      <h2>Http</h2>
+      <h2>2. Http request</h2>
       <hr>
       <div class="text-center">
-        <button class="btn btn-outline-primary m-3 mb-5" @click="getDatosXML()">Pedir XMLHttpRequest</button>
-         <button class="btn btn-outline-success m-3 mb-5" @click="getDatosFetch()">Pedir FETCH</button>
-         <button class="btn btn-outline-warning m-3 mb-5" @click="getDatosAxios()">Pedir AXIOS</button> 
+        <button class="btn btn-outline-primary m-3 mb-4" @click="getDatosXML()">Pedir XMLHttpRequest</button>
+         <button class="btn btn-outline-success m-3 mb-4" @click="getDatosFetch()">Pedir FETCH</button>
+         <button class="btn btn-outline-warning m-3 mb-4" @click="getDatosAxios()">Pedir AXIOS</button> 
       </div>
       <div class="text-center">
-        <button class="btn btn-outline-secondary mb-5" @click="resetDatos()">Resetear</button>
+        <button class="btn btn-outline-secondary m-2 mb-4" @click="resetDatos()">Resetear</button>
       </div>
       <div v-if="datos.length" class="table-responsive">
         <table class="table table-bordered">
